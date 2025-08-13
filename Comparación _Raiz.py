@@ -32,6 +32,6 @@ memoria_actual, memoria_pico = tracemalloc.get_traced_memory()
 tracemalloc.stop()
 
 print("\nResultados de rendimiento: ")
-print(f"Tiempo de ejecución: {tiempo_fin - tiempo_inicio:.6f} segundos")
+print(f"Tiempo de ejecución: {tiempo_fin - tiempo_inicio:.6f} segs")
 print(f"Memoria usada: {memoria_actual / 1024:.2f} KB")
 print(f"Pico de memoria: {memoria_pico / 1024:.2f} KB")
